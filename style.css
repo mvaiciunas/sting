@@ -1,0 +1,73 @@
+* {
+margin: 0;
+padding: 0;
+font-family: 'Montserrat' 'Poppins'
+
+}
+
+h1 {
+    font-family: 'Montserrat';
+    margin: 1em;
+    text-align: center;
+    font-size: 5em;
+    color: rgb(35, 22, 95);    
+}
+
+p {
+    margin: 1em;
+    font-family: 'Poppins';
+    column-count: 3;
+    column-gap: 50px;
+    column-rule-style: solid;
+    column-rule-width: 2px;
+    column-fill: balance;
+}
+
+#video1 {
+    margin: 2em;    
+}
+
+#bilietaiVideo {
+    margin: 2em;
+}
+
+#map {
+    margin: 2em;    
+}
+
+h2 {
+    font-family: 'Poppins';
+    text-align: center;
+    color: rgb(35, 22, 95);
+}
+
+h3 {
+    font-family: 'Poppins';
+    text-align: center;
+    color: rgb(35, 22, 95);
+}
+
+.center {
+     margin: auto;
+     width: 50%;
+    }
+
+input {
+    padding: 5px 10px;
+    margin: 8px;
+    box-sizing: border-box;
+    border: 2px solid rgb(35, 22, 95);
+    border-radius: 4px;
+}
+
+#button {
+    border: none;
+    background-color: rgb(35, 22, 95);
+    color: white;
+    padding: 20px 50px;
+    border-radius: 10%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
